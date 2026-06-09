@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
+  <meta name="description" content="Desarrollamos y potenciamos proyectos inmobiliarios, creando espacios funcionales, innovadores y valiosos. Convertimos tu inversión en éxito." />
+  <title>Estudio21 - Desarrollamos tu Proyecto inmobiliario</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ====== NAVBAR ====== -->
+  <header id="navbar" class="navbar">
+    <div class="navbar__inner">
+      <a href="#" class="navbar__logo">
+        <span class="logo-text">ESTUDIO<span class="logo-num">21</span> ARQ</span>
+      </a>
+
+      <nav class="navbar__nav" id="desktopNav">
+        <ul class="nav-list">
+          <li><a href="#" class="nav-link active">INICIO</a></li>
+          <li class="has-dropdown">
+            <a href="#" class="nav-link dropdown-trigger">PROYECTOS <span class="arrow">&#9660;</span></a>
+            <div class="dropdown">
+              <div class="dropdown__col">
+                <p class="dropdown__label">EN PROCESO</p>
+                <ul>
+                  <li><a href="#">Terrazas de Italia</a></li>
+                  <li><a href="#">Terrazas de Cajal</a></li>
+                </ul>
+              </div>
+              <div class="dropdown__col">
+                <p class="dropdown__label">TERMINADOS</p>
+                <ul>
+                  <li><a href="#">Cavas de Haedo</a></li>
+                  <li><a href="#">Patios del Regimiento</a></li>
+                  <li><a href="#">Patios del Vitraux</a></li>
+                  <li><a href="#">Patios Maldonado</a></li>
+                </ul>
+              </div>
+              <div class="dropdown__col">
+                <p class="dropdown__label">PRÓXIMAMENTE</p>
+                <ul>
+                  <li><a href="#">Chana I</a></li>
+                  <li><a href="#">Vila Rodona</a></li>
+                  <li><a href="#">Villa Platero</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="#nosotros" class="nav-link">NOSOTROS</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contacto" class="btn-contact">CONTACTO</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ====== MOBILE MENU ====== -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-menu__close" id="mobileClose">&#10005;</button>
+    <nav>
+      <ul class="mobile-nav">
+        <li><a href="#">INICIO</a></li>
+        <li class="mobile-has-sub">
+          <span class="mobile-parent">PROYECTOS <span class="mobile-arrow">+</span></span>
+          <ul class="mobile-sub">
+            <li class="mobile-sub-label">EN PROCESO</li>
+            <li><a href="#">Terrazas de Italia</a></li>
+            <li><a href="#">Terrazas de Cajal</a></li>
+            <li class="mobile-sub-label">TERMINADOS</li>
+            <li><a href="#">Cavas de Haedo</a></li>
+            <li><a href="#">Patios del Regimiento</a></li>
+            <li><a href="#">Patios del Vitraux</a></li>
+            <li><a href="#">Patios Maldonado</a></li>
+            <li class="mobile-sub-label">PRÓXIMAMENTE</li>
+            <li><a href="#">Chana I</a></li>
+            <li><a href="#">Vila Rodona</a></li>
+            <li><a href="#">Villa Platero</a></li>
+          </ul>
+        </li>
+        <li><a href="#nosotros">NOSOTROS</a></li>
+        <li><a href="#contacto" class="mobile-contact-btn">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg">
+      <img
+        src="https://estudio21arq.com/wp-content/uploads/2025/03/Brochure-CHANA-I-7.png"
+        alt="CHANA I proyecto"
+        class="hero__img"
+        onerror="this.parentElement.classList.add('hero__bg--fallback')"
+      />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__pretitle">Proyectos 2025</p>
+      <h1 class="hero__title">Descubre <em>CHANA I</em></h1>
+      <a href="#" class="btn-hero">Ver Proyecto</a>
+    </div>
+    <div class="hero__scroll">
+      <span></span>
+      <p>Scroll</p>
+    </div>
+  </section>
+
+  <!-- ====== ESTUDIO ====== -->
+  <section class="estudio" id="estudio">
+    <div class="container estudio__grid">
+      <div class="estudio__text" data-animate>
+        <p class="section-label">— Estudio21 Arquitectos —</p>
+        <h2 class="section-title">Estudio</h2>
+        <div class="divider"></div>
+        <p>Situado en Montevideo, Estudio 21 es un estudio de arquitectura dedicado al diseño, construcción y remodelación de espacios residenciales, comerciales e industriales.</p>
+        <p>Nuestro enfoque combina funcionalidad y estética, buscando soluciones que se adapten a las necesidades de la comunidad. Valoramos especialmente la colaboración con nuestros clientes y trabajamos en conjunto para transformar sus ideas en realidades arquitectónicas.</p>
+        <p>Nuestro compromiso es diseñar espacios que no solo sean habitables, sino que también enriquezcan la vida de quienes los utilizan.</p>
+      </div>
+      <div class="estudio__visual" data-animate>
+        <div class="estudio__img-block">
+          <div class="img-placeholder"></div>
+          <div class="estudio__accent-box"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TRAYECTORIA ====== -->
+  <section class="trayectoria" id="nosotros">
+    <div class="container trayectoria__grid">
+      <div class="trayectoria__visual" data-animate>
+        <div class="tray-img-wrap">
+          <div class="img-placeholder tall"></div>
+        </div>
+        <div class="logo-badge" data-animate>
+          <span class="logo-badge__text">ESTUDIO<span>21</span>ARQ</span>
+        </div>
+      </div>
+      <div class="trayectoria__text" data-animate>
+        <p class="section-label">— Sobre Nosotros —</p>
+        <h2 class="section-title"><strong>Trayectoria</strong></h2>
+        <div class="divider"></div>
+        <p>Con años de experiencia en el sector, nos especializamos en el diseño, construcción y remodelación de espacios residenciales, comerciales e industriales.</p>
+        <div class="stats-row">
+          <div class="stat">
+            <span class="stat__num">+10</span>
+            <span class="stat__label">Años de experiencia</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">+15</span>
+            <span class="stat__label">Proyectos ejecutados</span>
+          </div>
+        </div>
+        <a href="#" class="btn-outline">Sobre Nosotros</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACTO ====== -->
+  <section class="contacto" id="contacto">
+    <div class="container contacto__grid">
+      <div class="contacto__form-wrap" data-animate>
+        <h2 class="section-title">Completa con tus datos para recibir información</h2>
+        <div class="divider"></div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row form-row--two">
+            <div class="form-group">
+              <label for="nombre">Nombre <span class="req">*</span></label>
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="apellido">Apellidos</label>
+              <input type="text" id="apellido" name="apellido" placeholder="Apellidos" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico <span class="req">*</span></label>
+            <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required />
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+598 99 XXX XXX" />
+          </div>
+          <div class="form-group">
+            <label for="proyecto">Estoy interesado en:</label>
+            <select id="proyecto" name="proyecto">
+              <option value="">Elegí tu proyecto</option>
+              <option value="patios-regimiento">Patios del Regimiento</option>
+              <option value="terrazas-italia">Terrazas de Italia</option>
+              <option value="terrazas-cajal">Terrazas de Cajal</option>
+              <option value="patios-vitraux">Patios del Vitraux</option>
+              <option value="patios-maldonado">Patios Maldonado</option>
+              <option value="chana-i">Chana I</option>
+              <option value="vila-rodona">Vila Rodona</option>
+              <option value="villa-platero">Villa Platero</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribí tu mensaje..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Enviar</button>
+          <div class="form-success" id="formSuccess">✓ Mensaje enviado correctamente. ¡Nos contactaremos pronto!</div>
+        </form>
+      </div>
+
+      <div class="contacto__info" data-animate>
+        <h2 class="section-title">Contactanos</h2>
+        <div class="divider"></div>
+        <ul class="contact-info-list">
+          <li>
+            <span class="contact-icon">📍</span>
+            <span>21 de setiembre 3024 – Oficina 801<br/>Montevideo – Uruguay</span>
+          </li>
+          <li>
+            <span class="contact-icon">📞</span>
+            <a href="tel:+59899421576">+598 99 421 576</a>
+          </li>
+          <li>
+            <span class="contact-icon">✉</span>
+            <a href="mailto:estudiodearquitectos21@gmail.com">estudiodearquitectos21@gmail.com</a>
+          </li>
+        </ul>
+        <a href="https://wa.link/5fyoxj" target="_blank" rel="noopener" class="btn-whatsapp">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+          </svg>
+          Enviar un WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__logo">
+        <span class="logo-text">ESTUDIO<span class="logo-num">21</span> ARQ</span>
+      </div>
+      <p class="footer__copy">© 2025 Estudio21 Arquitectos. Todos los derechos reservados.</p>
+      <nav class="footer__nav">
+        <a href="#">Inicio</a>
+        <a href="#">Proyectos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
